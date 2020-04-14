@@ -40,6 +40,11 @@ h1 {
   align-items: center;
 }
 
+.section-text {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
 .pink {
   background-color: pink;
 }
@@ -66,4 +71,8 @@ body {
   height: 20vh;
   margin-left: 2vw;
   margin-right: 2vw;
+}
+
+.tech-stack {
+  font-size: 10px;
 }
