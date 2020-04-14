@@ -40,10 +40,10 @@ h1 {
   align-items: center;
 }
 
-.section-text {
+/* .section-text {
   padding-left: 1vw;
   padding-right: 1vw;
-}
+} */
 
 .pink {
   background-color: pink;
@@ -75,4 +75,16 @@ body {
 
 .tech-stack {
   font-size: 10px;
+}
+
+div {
+  padding: 1vw;
+}
+
+#top,
+#about,
+#projects,
+#experience,
+#contact {
+  margin: 5vh;
 }
