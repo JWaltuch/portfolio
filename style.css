@@ -126,6 +126,10 @@ img {
   border: solid black 1px;
 }
 
+.project-img:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 10, 0, 0.5);
+}
+
 .footer {
   display: flex;
   justify-content: flex-end;
