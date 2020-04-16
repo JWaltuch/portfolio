@@ -51,6 +51,14 @@ h1 {
   background-color: pink;
 }
 
+div {
+  padding: 1vw;
+}
+
+#main {
+  padding: 0vw;
+}
+
 .white,
 .pink {
   padding: 1vw;
@@ -78,10 +86,6 @@ body {
 
 .tech-stack {
   font-size: 10px;
-}
-
-div {
-  padding: 1vw;
 }
 
 #top,
