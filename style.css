@@ -84,6 +84,11 @@ div {
   margin: 5vh;
 }
 
+.projects {
+  overflow: scroll;
+  max-height: 80vh;
+}
+
 .tech-stack {
   font-size: 10px;
 }
@@ -155,4 +160,36 @@ button:hover {
   display: flex;
   justify-content: flex-end;
   font-size: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  img {
+    max-width: 250px;
+    max-height: 200px;
+  }
+  .section-items {
+    flex-direction: column;
+  }
+  .icon {
+    width: 30vw;
+    height: 20vh;
+  }
+  .project-mobile {
+    border: 2px solid black;
+  }
+  body {
+    font-size: 12px;
+  }
+  #top,
+  #about,
+  #projects,
+  #experience,
+  #contact {
+    margin: 1vh;
+  }
+  .nav-list {
+    padding: 1vw;
+  }
 }
