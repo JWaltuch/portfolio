@@ -17,10 +17,6 @@ body {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* #top {
-  margin-top: 10vh;
-} */
-
 li {
   list-style-type: none;
   padding: 1vw;
@@ -54,10 +50,6 @@ h1 {
 div {
   padding: 1vw;
 }
-
-/* #main {
-  padding: 0vw;
-} */
 
 .white,
 .pink {
@@ -172,13 +164,6 @@ button:hover {
   }
   body {
     font-size: 12px;
-  }
-  #top,
-  #about,
-  #projects,
-  #experience,
-  #contact {
-    margin: 1vh;
   }
   .nav-list {
     padding: 1vw;
