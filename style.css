@@ -1,7 +1,6 @@
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
 }
 
 /* NAV */
@@ -9,18 +8,13 @@ body {
 .nav-list {
   display: flex;
   flex-direction: row;
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 0vh;
   left: 0vw;
   background-color: white;
-  width: 100%;
   margin: 0px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-#top {
-  margin-top: 10vh;
 }
 
 li {
@@ -57,13 +51,10 @@ div {
   padding: 1vw;
 }
 
-#main {
-  padding: 0vw;
-}
-
 .white,
 .pink {
   padding: 1vw;
+  margin: 0vw;
 }
 
 .pink {
@@ -74,14 +65,6 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#top,
-#about,
-#projects,
-#experience,
-#contact {
-  margin: 5vh;
 }
 
 .projects {
@@ -181,13 +164,6 @@ button:hover {
   }
   body {
     font-size: 12px;
-  }
-  #top,
-  #about,
-  #projects,
-  #experience,
-  #contact {
-    margin: 1vh;
   }
   .nav-list {
     padding: 1vw;
