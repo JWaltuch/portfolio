@@ -8,10 +8,11 @@ body {
 .nav-list {
   display: flex;
   flex-direction: row;
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 0vh;
   left: 0vw;
+  width: 100%;
   background-color: white;
   margin: 0px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -81,6 +82,10 @@ div {
 img {
   max-width: 550px;
   max-height: 550px;
+}
+
+.border-img {
+  border: solid black 1px;
 }
 
 .project-img {
