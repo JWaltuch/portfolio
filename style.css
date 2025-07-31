@@ -13,9 +13,10 @@ body {
   top: 0vh;
   left: 0vw;
   width: 100%;
+  border-bottom: solid black 1px;
   background-color: white;
   margin: 0px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(234, 234, 234, 0.1);
 }
 
 li {
@@ -25,7 +26,7 @@ li {
 }
 
 li:hover {
-  background-color: rgba(255, 192, 203, 1);
+  background-color: rgb(237, 236, 236);;
   border-radius: 28px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -52,14 +53,14 @@ div {
   padding: 1vw;
 }
 
-.white,
-.pink {
+.bgcolorA,
+.bgcolorB {
   padding: 1vw;
   margin: 0vw;
 }
 
-.pink {
-  background-color: pink;
+.bgcolorA {
+  background-color: rgb(237, 236, 236);
 }
 
 .section-items {
@@ -84,8 +85,9 @@ img {
   max-height: 550px;
 }
 
-.border-img {
+.mobile-project-img {
   border: solid black 1px;
+  max-height: 60vh;
 }
 
 .project-img {
@@ -109,6 +111,7 @@ img {
 }
 
 .project-img:hover,
+.border-img:hover,
 .resume:hover,
 .icon:hover {
   box-shadow: 0 0 10px 0 rgba(0, 10, 0, 0.5);
